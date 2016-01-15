@@ -22,17 +22,14 @@ package com.hf.funproject.datamodel;
  */
 public class User extends Identity{
 	
-	/* Declaring fields */
 	String password;
 	//Date access;
 
-	/* Declaring constructor */
 	public User(String password) {
 		super();
 		this.password = password;
 	}
 
-	/* Defining setters and getters */
 	/**
 	 * @return the password
 	 */

@@ -22,13 +22,11 @@ import java.util.Map;
  */
 public class Identity {
 	
-	/* Declaring fields */
 	String 			   displayName;
 	String 			   uid;
 	String 			   email;
 	Map<String,String> attributes;
-	
-	/* Declaring constructors*/
+		
 	public Identity() {
 		super();
 	}
@@ -40,8 +38,7 @@ public class Identity {
 		this.email = email;
 		this.attributes = attributes;
 	}
-
-	/* Defining getters and setters*/
+	
 	/**
 	 * @return the displayName
 	 */
